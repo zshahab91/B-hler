@@ -1,0 +1,81 @@
+{
+  "machines": [
+    {
+      "id": "0",
+      "name": "Scale",
+      "status": {
+        "name": "RUNNING",
+        "icon": "settings_backup_restore"
+      },
+      "mainIcon": "system_update_alt"
+    },
+    {
+      "id": "1",
+      "name": "Attacher",
+      "status": {
+        "name": "ALARM",
+        "icon": "error_outline"
+      },
+      "mainIcon": "grid_on"
+    },
+    {
+      "id": "2",
+      "name": "Packer",
+      "status": {
+        "name": "WARNING",
+        "icon": "report_problem"
+      },
+      "mainIcon": "system_update_alt"
+    },
+    {
+      "id": "3",
+      "name": "Closer",
+      "status": {
+        "name": "ALARM",
+        "icon": "error_outline"
+      },
+      "mainIcon": "grid_on"
+    }
+  ],
+  "save": [
+    {
+      "0": {
+        "id": "0",
+        "name": "Scale",
+        "status": {
+          "name": "RUNNING",
+          "icon": "settings_backup_restore"
+        },
+        "mainIcon": "system_update_alt"
+      },
+      "1": {
+        "id": "1",
+        "name": "Attacher",
+        "status": {
+          "name": "ALARM",
+          "icon": "error_outline"
+        },
+        "mainIcon": "grid_on"
+      },
+      "2": {
+        "id": "2",
+        "name": "Packer",
+        "status": {
+          "name": "WARNING",
+          "icon": "report_problem"
+        },
+        "mainIcon": "system_update_alt"
+      },
+      "3": {
+        "id": "3",
+        "name": "Closer",
+        "status": {
+          "name": "ALARM",
+          "icon": "error_outline"
+        },
+        "mainIcon": "grid_on"
+      },
+      "id": "4699"
+    }
+  ]
+}

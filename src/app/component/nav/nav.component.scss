@@ -1,0 +1,45 @@
+@import '../../../assets/scss/variables.scss';
+
+.nav {
+    background-color: $gray-light;
+
+    &-first{
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        font-weight: bold;
+        align-items: center;
+        border-bottom: 8px solid $buhler-color;
+
+        &-img {
+            height: 45px;
+        }
+    
+        &-info {
+            display: flex;
+            justify-content: space-between;
+            width: 30%;
+    
+            &-time {
+                flex-grow: 1;
+                display: flex;
+                span {
+                    &:last-child {
+                        margin-left: 10px;
+                    }
+                }
+            }
+    
+            &-profile {
+                flex-grow: 1;
+                display: flex;   
+                span {
+                    &:last-child {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+}

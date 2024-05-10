@@ -1,0 +1,60 @@
+@import '../../../assets/scss/variables.scss';
+
+.box {
+   width: 150px;
+   padding: 5px;
+   text-align: center;
+   position: relative;
+   cursor: pointer;
+   ;
+
+   .small-icon {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+   }
+
+   &-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .material-icons {
+         font-size: 45px;
+      }
+
+   }
+
+   &:hover {
+      color: $buhler-color;
+   }
+}
+
+.running {
+   background-color: $gray-light;
+
+   .small-icon {
+      color: $buhler-color;
+   }
+}
+
+.warning {
+   background-color: $warning;
+   color: $text-light;
+}
+
+.alarm {
+   background-color: $alarm;
+   color: $text-light;
+}
+
+.machine {
+   height: 140px;
+   box-sizing: border-box;
+   position: relative;
+
+   &-header {
+      height: 60px;
+   }
+}

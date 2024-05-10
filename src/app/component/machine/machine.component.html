@@ -1,0 +1,13 @@
+<div [class]="machineClass">
+    <span class="small-icon material-icons">
+        {{machine.status.icon}}
+    </span>
+    <div class="box-content">
+        @if (!isHeader) {
+        <span class="material-icons">
+            {{machine.mainIcon}}
+        </span>
+        }
+        <p>{{machine.name}}</p>
+    </div>
+</div>

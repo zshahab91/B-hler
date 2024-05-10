@@ -1,0 +1,22 @@
+<nav class="nav">
+    <section class="nav-first">
+        <img class="nav-first-img" src="../../../assets/img/logo.png" alt="logo">
+        <section class="nav-first-info">
+            <section class="nav-first-info-time">
+                <span class="material-icons nav-first-info-time-icon">
+                    schedule
+                </span>
+                <span class="nav-first-info-time-date">{{ time | date:"dd.mm.yyyy hh:mm a" }}</span>
+            </section>
+            <section class="nav-first-info-profile">
+                <span class="material-icons">
+                    account_circle
+                </span>
+                <span>Operator</span>
+            </section>
+        </section>
+    </section>
+    <section class="nav-second">
+        <app-machines [machineList]="machineList" [isHeader]=true></app-machines>
+    </section>
+</nav>

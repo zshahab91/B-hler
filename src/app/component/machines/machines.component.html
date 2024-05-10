@@ -1,0 +1,12 @@
+@if (machineList.length>0) {
+<div  [ngClass]="{'container': !isHeader, 'header-container': isHeader}">
+    @for (machine of machineList; track machine) {
+        <div>
+            <app-machine [machine]="machine" [isHeader]="isHeader"></app-machine>
+        </div>
+    }
+</div>
+}
+@else {
+<h2>Goodbye</h2>
+}
